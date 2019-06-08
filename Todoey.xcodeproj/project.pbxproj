@@ -60,9 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				C2E8516422AACB1C002FDD0F /* Supporting Files */,
+				C2E8515F22AACAD6002FDD0F /* Model */,
 				C2E8516322AACB09002FDD0F /* VIews */,
 				C2E8516222AACAF9002FDD0F /* Controllers */,
-				C2E8515F22AACAD6002FDD0F /* Model */,
 				C2E8515322AA2F73002FDD0F /* Assets.xcassets */,
 				C2E8515822AA2F73002FDD0F /* Info.plist */,
 			);
