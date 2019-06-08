@@ -12,6 +12,8 @@
 		C2E8515222AA2F70002FDD0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E8515022AA2F70002FDD0F /* Main.storyboard */; };
 		C2E8515422AA2F73002FDD0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E8515322AA2F73002FDD0F /* Assets.xcassets */; };
 		C2E8515722AA2F73002FDD0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E8515522AA2F73002FDD0F /* LaunchScreen.storyboard */; };
+		C2E8516122AACAF2002FDD0F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E8516022AACAF2002FDD0F /* Item.swift */; };
+		C2E8516622AACE95002FDD0F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E8516522AACE95002FDD0F /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C2E8515322AA2F73002FDD0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2E8515622AA2F73002FDD0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2E8515822AA2F73002FDD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E8516022AACAF2002FDD0F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C2E8516522AACE95002FDD0F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		C2E8514022AA2F70002FDD0F = {
 			isa = PBXGroup;
 			children = (
+				C2E8516522AACE95002FDD0F /* Default-568h@2x.png */,
 				C2E8514B22AA2F70002FDD0F /* Todoey */,
 				C2E8514A22AA2F70002FDD0F /* Products */,
 			);
@@ -54,14 +59,47 @@
 		C2E8514B22AA2F70002FDD0F /* Todoey */ = {
 			isa = PBXGroup;
 			children = (
-				C2E8514C22AA2F70002FDD0F /* AppDelegate.swift */,
-				C2E8514E22AA2F70002FDD0F /* ToDoListViewController.swift */,
-				C2E8515022AA2F70002FDD0F /* Main.storyboard */,
+				C2E8516422AACB1C002FDD0F /* Supporting Files */,
+				C2E8516322AACB09002FDD0F /* VIews */,
+				C2E8516222AACAF9002FDD0F /* Controllers */,
+				C2E8515F22AACAD6002FDD0F /* Model */,
 				C2E8515322AA2F73002FDD0F /* Assets.xcassets */,
-				C2E8515522AA2F73002FDD0F /* LaunchScreen.storyboard */,
 				C2E8515822AA2F73002FDD0F /* Info.plist */,
 			);
 			path = Todoey;
+			sourceTree = "<group>";
+		};
+		C2E8515F22AACAD6002FDD0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2E8516022AACAF2002FDD0F /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2E8516222AACAF9002FDD0F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2E8514C22AA2F70002FDD0F /* AppDelegate.swift */,
+				C2E8514E22AA2F70002FDD0F /* ToDoListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C2E8516322AACB09002FDD0F /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				C2E8515022AA2F70002FDD0F /* Main.storyboard */,
+				C2E8515522AA2F73002FDD0F /* LaunchScreen.storyboard */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		C2E8516422AACB1C002FDD0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2E8515722AA2F73002FDD0F /* LaunchScreen.storyboard in Resources */,
+				C2E8516622AACE95002FDD0F /* Default-568h@2x.png in Resources */,
 				C2E8515422AA2F73002FDD0F /* Assets.xcassets in Resources */,
 				C2E8515222AA2F70002FDD0F /* Main.storyboard in Resources */,
 			);
@@ -136,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2E8514F22AA2F70002FDD0F /* ToDoListViewController.swift in Sources */,
+				C2E8516122AACAF2002FDD0F /* Item.swift in Sources */,
 				C2E8514D22AA2F70002FDD0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
